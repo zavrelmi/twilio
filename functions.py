@@ -10,6 +10,10 @@ def add_numbers(x,y):
     except:
         raise ValueError("Expecting 2 integers")
 
-if __name__ == '__main__':
+
+def main():
     hail_friend('Jonathan Joestar')
     print(add_numbers(3,2))
+
+if __name__ == '__main__':
+    main()
