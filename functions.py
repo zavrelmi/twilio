@@ -1,13 +1,15 @@
-'''
-Define a function called hail_friend which prints the message Hail, 
-friend! to the console. 
-This will be your first step to learning the basic moving parts of Python functions. 
-Once you have defined your function in functions.py, 
-click the HACK button to complete the trial.
-'''
+# v2
+def hail_friend(friend):
+    print(f"Hail, {friend}!")
 
-def hail_friend():
-    print("Hail, friend!")
+def add_numbers(x,y):
+    '''return the result of adding those two numbers together'''
+    try:
+        num_add = int(x) + int(y)
+        return num_add
+    except:
+        raise ValueError("Expecting 2 integers")
 
 if __name__ == '__main__':
-    hail_friend()
+    hail_friend('Jonathan Joestar')
+    print(add_numbers(3,2))
