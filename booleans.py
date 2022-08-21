@@ -14,5 +14,6 @@ greeting = "For the glory of Python!"
 try:
     if sys.argv[1] == greeting:
         proper_greeting = True
+        Return: True
 except:
     print("There is no argument passed")
