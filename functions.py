@@ -12,8 +12,9 @@ def add_numbers(x,y):
 
 
 def main():
-    hail_friend('Jonathan Joestar')
+    # hail_friend('Jonathan Joestar')
     print(add_numbers(3,2))
+
 
 if __name__ == '__main__':
     main()
