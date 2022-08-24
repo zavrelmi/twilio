@@ -8,11 +8,15 @@ An instance method called full_name that returns a string that combines the firs
 A class variable called greeting which is a string set to For the glory of Python!
 '''
 
-class Citizen():
-    
-    def __init__(self,first_name,last_name):
+class Citizen:
+    '''
+    return full name
+    '''
+    def __init__(self, first_name, last_name):
         self.first_name = first_name
         self.last_name = last_name
     
     def full_name(self):
-        return 0 #continue here
+        return f"{self.first_name} {self.last_name}" 
+    
+    greeting = "For the glory of Python!"
